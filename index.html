@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🎮 My Gaming Arcade</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    background: radial-gradient(circle at top, #222, #000);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #ff9800;
+    text-shadow: 0 0 10px #ff9800;
+  }
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .game-card {
+    background: #333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ff9800;
+  }
+  .game-card h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  .game-card a {
+    display: inline-block;
+    background: #ff9800;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  .game-card a:hover {
+    background: #ff6f00;
+  }
+</style>
+</head>
+<body>
+
+<h1>🎮 My Gaming Arcade</h1>
+<div class="game-grid">
+  <div class="game-card">
+    <h2>🍏 Falling Fruits</h2>
+    <a href="./fruits.html">Play Game</a>
+  </div>
+  <div class="game-card">
+    <h2>👾 Alien Shooter</h2>
+    <a href="./shooter2.html">Play Game</a>
+  </div>
+  <div class="game-card">
+    <h2>🧱 Tower Stacker</h2>
+    <a href="./towerblock.html">Play Game</a>
+  </div>
+  <div class="game-card">
+    <h2>🧨 Breakout</h2>
+    <a href="./break2.html">Play Game</a>
+  </div>
+  <div class="game-card">
+    <h2>🐍 Snake Game</h2>
+    <a href="./snake2.html">Play Game</a>
+  </div>
+</div>
+
+</body>
+</html>
+
